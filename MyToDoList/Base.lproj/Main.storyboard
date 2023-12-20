@@ -64,7 +64,7 @@
         <!--메모 보기-->
         <scene sceneID="coq-qB-Joz">
             <objects>
-                <viewController id="aIF-6e-zI5" customClass="DetailViewController" customModule="MyToDoList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="aIF-6e-zI5" customClass="DetailViewController" customModule="MyToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gmu-Ok-YKN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,7 +151,7 @@
         <!--My To Do list-->
         <scene sceneID="kIb-GC-9qB">
             <objects>
-                <tableViewController id="Ekm-Jq-xSg" customClass="MemoListTableViewController" customModule="MyToDoList" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController modalPresentationStyle="fullScreen" id="Ekm-Jq-xSg" customClass="MemoListTableViewController" customModule="MyToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="G54-mu-rds">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
